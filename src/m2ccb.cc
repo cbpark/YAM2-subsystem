@@ -23,9 +23,6 @@ const double MC = 700.0;
 // all the visible particles are massless.
 const double MV = 0.0;
 
-// total number of events to generate.
-const auto nev = 10000;
-
 int main(int argc, char *argv[]) {
     if (!(argc == 3)) {
         std::cout << "usage: ./bin/m2ccb <output.dat> <nev>\n"
